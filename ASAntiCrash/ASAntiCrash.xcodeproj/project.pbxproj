@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE36A2AA209C45390010F8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2A9209C45390010F8B0 /* AppDelegate.m */; };
+		AE36A2AD209C45390010F8B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2AC209C45390010F8B0 /* ViewController.m */; };
+		AE36A2B0209C45390010F8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE36A2AE209C45390010F8B0 /* Main.storyboard */; };
+		AE36A2B2209C45460010F8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE36A2B1209C45460010F8B0 /* Assets.xcassets */; };
+		AE36A2B5209C45460010F8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE36A2B3209C45460010F8B0 /* LaunchScreen.storyboard */; };
+		AE36A2B8209C45460010F8B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2B7209C45460010F8B0 /* main.m */; };
+		AE36A2C2209C46500010F8B0 /* NSException+ASLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2C1209C46500010F8B0 /* NSException+ASLog.m */; };
+		AE36A2C5209C46670010F8B0 /* NSObject+ASSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2C4209C46670010F8B0 /* NSObject+ASSwizzling.m */; };
+		AE36A2C8209C46810010F8B0 /* NSObject+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2C7209C46810010F8B0 /* NSObject+ASAntiCrash.m */; };
+		AE36A2CB209C468D0010F8B0 /* NSArray+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2CA209C468C0010F8B0 /* NSArray+ASAntiCrash.m */; };
+		AE36A2CE209C46990010F8B0 /* NSMutableArray+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2CD209C46990010F8B0 /* NSMutableArray+ASAntiCrash.m */; };
+		AE36A2D1209C46A50010F8B0 /* NSDictionary+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2D0209C46A50010F8B0 /* NSDictionary+ASAntiCrash.m */; };
+		AE36A2D4209C46B20010F8B0 /* NSMutableDictionary+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2D3209C46B20010F8B0 /* NSMutableDictionary+ASAntiCrash.m */; };
+		AE36A2D7209C46C10010F8B0 /* NSString+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2D6209C46C10010F8B0 /* NSString+ASAntiCrash.m */; };
+		AE36A2DA209C46D40010F8B0 /* NSMutableString+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2D9209C46D40010F8B0 /* NSMutableString+ASAntiCrash.m */; };
+		AE36A2DD209C46E30010F8B0 /* NSAttributedString+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2DC209C46E30010F8B0 /* NSAttributedString+ASAntiCrash.m */; };
+		AE36A2E0209C46EE0010F8B0 /* NSMutableAttributedString+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2DF209C46EE0010F8B0 /* NSMutableAttributedString+ASAntiCrash.m */; };
+		AE36A2E3209C46FB0010F8B0 /* NSURL+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2E2209C46FB0010F8B0 /* NSURL+ASAntiCrash.m */; };
+		AE36A2E6209C47070010F8B0 /* NSFileManager+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2E5209C47070010F8B0 /* NSFileManager+ASAntiCrash.m */; };
+		AE36A2E9209C47100010F8B0 /* NSSet+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2E8209C47100010F8B0 /* NSSet+ASAntiCrash.m */; };
+		AE36A2EC209C471B0010F8B0 /* NSMutableSet+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2EB209C471B0010F8B0 /* NSMutableSet+ASAntiCrash.m */; };
+		AE36A2EF209C47260010F8B0 /* NSCache+ASAntiCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2EE209C47260010F8B0 /* NSCache+ASAntiCrash.m */; };
+		AE36A2F2209C56F20010F8B0 /* ASTestCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36A2F1209C56F20010F8B0 /* ASTestCrash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE36A2A5209C45390010F8B0 /* ASAntiCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAntiCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE36A2A8209C45390010F8B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE36A2A9209C45390010F8B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE36A2AB209C45390010F8B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE36A2AC209C45390010F8B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE36A2AF209C45390010F8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE36A2B1209C45460010F8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE36A2B4209C45460010F8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE36A2B6209C45460010F8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE36A2B7209C45460010F8B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE36A2BF209C46180010F8B0 /* ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAntiCrash.h; sourceTree = "<group>"; };
+		AE36A2C0209C46500010F8B0 /* NSException+ASLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSException+ASLog.h"; sourceTree = "<group>"; };
+		AE36A2C1209C46500010F8B0 /* NSException+ASLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSException+ASLog.m"; sourceTree = "<group>"; };
+		AE36A2C3209C46670010F8B0 /* NSObject+ASSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ASSwizzling.h"; sourceTree = "<group>"; };
+		AE36A2C4209C46670010F8B0 /* NSObject+ASSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ASSwizzling.m"; sourceTree = "<group>"; };
+		AE36A2C6209C46810010F8B0 /* NSObject+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2C7209C46810010F8B0 /* NSObject+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2C9209C468C0010F8B0 /* NSArray+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2CA209C468C0010F8B0 /* NSArray+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2CC209C46990010F8B0 /* NSMutableArray+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2CD209C46990010F8B0 /* NSMutableArray+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2CF209C46A50010F8B0 /* NSDictionary+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2D0209C46A50010F8B0 /* NSDictionary+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2D2209C46B20010F8B0 /* NSMutableDictionary+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2D3209C46B20010F8B0 /* NSMutableDictionary+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2D5209C46C10010F8B0 /* NSString+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2D6209C46C10010F8B0 /* NSString+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2D8209C46D40010F8B0 /* NSMutableString+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2D9209C46D40010F8B0 /* NSMutableString+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2DB209C46E30010F8B0 /* NSAttributedString+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2DC209C46E30010F8B0 /* NSAttributedString+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2DE209C46EE0010F8B0 /* NSMutableAttributedString+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2DF209C46EE0010F8B0 /* NSMutableAttributedString+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2E1209C46FB0010F8B0 /* NSURL+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2E2209C46FB0010F8B0 /* NSURL+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2E4209C47070010F8B0 /* NSFileManager+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2E5209C47070010F8B0 /* NSFileManager+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2E7209C47100010F8B0 /* NSSet+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2E8209C47100010F8B0 /* NSSet+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2EA209C471B0010F8B0 /* NSMutableSet+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2EB209C471B0010F8B0 /* NSMutableSet+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2ED209C47260010F8B0 /* NSCache+ASAntiCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCache+ASAntiCrash.h"; sourceTree = "<group>"; };
+		AE36A2EE209C47260010F8B0 /* NSCache+ASAntiCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCache+ASAntiCrash.m"; sourceTree = "<group>"; };
+		AE36A2F0209C56F20010F8B0 /* ASTestCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTestCrash.h; sourceTree = "<group>"; };
+		AE36A2F1209C56F20010F8B0 /* ASTestCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTestCrash.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE36A2A2209C45380010F8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE36A29C209C45380010F8B0 = {
+			isa = PBXGroup;
+			children = (
+				AE36A2A7209C45390010F8B0 /* ASAntiCrash */,
+				AE36A2A6209C45390010F8B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE36A2A6209C45390010F8B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE36A2A5209C45390010F8B0 /* ASAntiCrash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE36A2A7209C45390010F8B0 /* ASAntiCrash */ = {
+			isa = PBXGroup;
+			children = (
+				AE36A2BE209C45D40010F8B0 /* src */,
+				AE36A2A8209C45390010F8B0 /* AppDelegate.h */,
+				AE36A2A9209C45390010F8B0 /* AppDelegate.m */,
+				AE36A2AB209C45390010F8B0 /* ViewController.h */,
+				AE36A2AC209C45390010F8B0 /* ViewController.m */,
+				AE36A2F0209C56F20010F8B0 /* ASTestCrash.h */,
+				AE36A2F1209C56F20010F8B0 /* ASTestCrash.m */,
+				AE36A2AE209C45390010F8B0 /* Main.storyboard */,
+				AE36A2B1209C45460010F8B0 /* Assets.xcassets */,
+				AE36A2B3209C45460010F8B0 /* LaunchScreen.storyboard */,
+				AE36A2B6209C45460010F8B0 /* Info.plist */,
+				AE36A2B7209C45460010F8B0 /* main.m */,
+			);
+			path = ASAntiCrash;
+			sourceTree = "<group>";
+		};
+		AE36A2BE209C45D40010F8B0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AE36A2BF209C46180010F8B0 /* ASAntiCrash.h */,
+				AE36A2C0209C46500010F8B0 /* NSException+ASLog.h */,
+				AE36A2C1209C46500010F8B0 /* NSException+ASLog.m */,
+				AE36A2C3209C46670010F8B0 /* NSObject+ASSwizzling.h */,
+				AE36A2C4209C46670010F8B0 /* NSObject+ASSwizzling.m */,
+				AE36A2C6209C46810010F8B0 /* NSObject+ASAntiCrash.h */,
+				AE36A2C7209C46810010F8B0 /* NSObject+ASAntiCrash.m */,
+				AE36A2C9209C468C0010F8B0 /* NSArray+ASAntiCrash.h */,
+				AE36A2CA209C468C0010F8B0 /* NSArray+ASAntiCrash.m */,
+				AE36A2CC209C46990010F8B0 /* NSMutableArray+ASAntiCrash.h */,
+				AE36A2CD209C46990010F8B0 /* NSMutableArray+ASAntiCrash.m */,
+				AE36A2CF209C46A50010F8B0 /* NSDictionary+ASAntiCrash.h */,
+				AE36A2D0209C46A50010F8B0 /* NSDictionary+ASAntiCrash.m */,
+				AE36A2D2209C46B20010F8B0 /* NSMutableDictionary+ASAntiCrash.h */,
+				AE36A2D3209C46B20010F8B0 /* NSMutableDictionary+ASAntiCrash.m */,
+				AE36A2D5209C46C10010F8B0 /* NSString+ASAntiCrash.h */,
+				AE36A2D6209C46C10010F8B0 /* NSString+ASAntiCrash.m */,
+				AE36A2D8209C46D40010F8B0 /* NSMutableString+ASAntiCrash.h */,
+				AE36A2D9209C46D40010F8B0 /* NSMutableString+ASAntiCrash.m */,
+				AE36A2DB209C46E30010F8B0 /* NSAttributedString+ASAntiCrash.h */,
+				AE36A2DC209C46E30010F8B0 /* NSAttributedString+ASAntiCrash.m */,
+				AE36A2DE209C46EE0010F8B0 /* NSMutableAttributedString+ASAntiCrash.h */,
+				AE36A2DF209C46EE0010F8B0 /* NSMutableAttributedString+ASAntiCrash.m */,
+				AE36A2E1209C46FB0010F8B0 /* NSURL+ASAntiCrash.h */,
+				AE36A2E2209C46FB0010F8B0 /* NSURL+ASAntiCrash.m */,
+				AE36A2E4209C47070010F8B0 /* NSFileManager+ASAntiCrash.h */,
+				AE36A2E5209C47070010F8B0 /* NSFileManager+ASAntiCrash.m */,
+				AE36A2E7209C47100010F8B0 /* NSSet+ASAntiCrash.h */,
+				AE36A2E8209C47100010F8B0 /* NSSet+ASAntiCrash.m */,
+				AE36A2EA209C471B0010F8B0 /* NSMutableSet+ASAntiCrash.h */,
+				AE36A2EB209C471B0010F8B0 /* NSMutableSet+ASAntiCrash.m */,
+				AE36A2ED209C47260010F8B0 /* NSCache+ASAntiCrash.h */,
+				AE36A2EE209C47260010F8B0 /* NSCache+ASAntiCrash.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE36A2A4209C45380010F8B0 /* ASAntiCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE36A2BB209C45460010F8B0 /* Build configuration list for PBXNativeTarget "ASAntiCrash" */;
+			buildPhases = (
+				AE36A2A1209C45380010F8B0 /* Sources */,
+				AE36A2A2209C45380010F8B0 /* Frameworks */,
+				AE36A2A3209C45380010F8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASAntiCrash;
+			productName = ASAntiCrash;
+			productReference = AE36A2A5209C45390010F8B0 /* ASAntiCrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE36A29D209C45380010F8B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = asunquan;
+				TargetAttributes = {
+					AE36A2A4209C45380010F8B0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AE36A2A0209C45380010F8B0 /* Build configuration list for PBXProject "ASAntiCrash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE36A29C209C45380010F8B0;
+			productRefGroup = AE36A2A6209C45390010F8B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE36A2A4209C45380010F8B0 /* ASAntiCrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE36A2A3209C45380010F8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE36A2B5209C45460010F8B0 /* LaunchScreen.storyboard in Resources */,
+				AE36A2B2209C45460010F8B0 /* Assets.xcassets in Resources */,
+				AE36A2B0209C45390010F8B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE36A2A1209C45380010F8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE36A2DD209C46E30010F8B0 /* NSAttributedString+ASAntiCrash.m in Sources */,
+				AE36A2F2209C56F20010F8B0 /* ASTestCrash.m in Sources */,
+				AE36A2AD209C45390010F8B0 /* ViewController.m in Sources */,
+				AE36A2C5209C46670010F8B0 /* NSObject+ASSwizzling.m in Sources */,
+				AE36A2E3209C46FB0010F8B0 /* NSURL+ASAntiCrash.m in Sources */,
+				AE36A2B8209C45460010F8B0 /* main.m in Sources */,
+				AE36A2D4209C46B20010F8B0 /* NSMutableDictionary+ASAntiCrash.m in Sources */,
+				AE36A2EF209C47260010F8B0 /* NSCache+ASAntiCrash.m in Sources */,
+				AE36A2C8209C46810010F8B0 /* NSObject+ASAntiCrash.m in Sources */,
+				AE36A2D7209C46C10010F8B0 /* NSString+ASAntiCrash.m in Sources */,
+				AE36A2EC209C471B0010F8B0 /* NSMutableSet+ASAntiCrash.m in Sources */,
+				AE36A2D1209C46A50010F8B0 /* NSDictionary+ASAntiCrash.m in Sources */,
+				AE36A2AA209C45390010F8B0 /* AppDelegate.m in Sources */,
+				AE36A2CE209C46990010F8B0 /* NSMutableArray+ASAntiCrash.m in Sources */,
+				AE36A2CB209C468D0010F8B0 /* NSArray+ASAntiCrash.m in Sources */,
+				AE36A2DA209C46D40010F8B0 /* NSMutableString+ASAntiCrash.m in Sources */,
+				AE36A2E9209C47100010F8B0 /* NSSet+ASAntiCrash.m in Sources */,
+				AE36A2E0209C46EE0010F8B0 /* NSMutableAttributedString+ASAntiCrash.m in Sources */,
+				AE36A2E6209C47070010F8B0 /* NSFileManager+ASAntiCrash.m in Sources */,
+				AE36A2C2209C46500010F8B0 /* NSException+ASLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE36A2AE209C45390010F8B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE36A2AF209C45390010F8B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE36A2B3209C45460010F8B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE36A2B4209C45460010F8B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE36A2B9209C45460010F8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE36A2BA209C45460010F8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE36A2BC209C45460010F8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32JQBP9QP9;
+				INFOPLIST_FILE = ASAntiCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asunquan.ASAntiCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE36A2BD209C45460010F8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32JQBP9QP9;
+				INFOPLIST_FILE = ASAntiCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asunquan.ASAntiCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE36A2A0209C45380010F8B0 /* Build configuration list for PBXProject "ASAntiCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE36A2B9209C45460010F8B0 /* Debug */,
+				AE36A2BA209C45460010F8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE36A2BB209C45460010F8B0 /* Build configuration list for PBXNativeTarget "ASAntiCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE36A2BC209C45460010F8B0 /* Debug */,
+				AE36A2BD209C45460010F8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE36A29D209C45380010F8B0 /* Project object */;
+}
